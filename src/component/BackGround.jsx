@@ -1,5 +1,5 @@
 import React from "react";
-import BackGroundImage from "../images/BackGround.png";
+import BackGroundImage from "../images/backGround.png";
 
 export default function BackGround() {
   return (
