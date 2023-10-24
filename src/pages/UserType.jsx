@@ -2,6 +2,7 @@ import React from "react";
 import dumbbell from "../images/dumbbell.png";
 import clock from "../images/clock.png";
 import vazne from "../images/vazne.png";
+import Button from "../component/Button";
 
 export default function UserType() {
   return (
@@ -12,14 +13,18 @@ export default function UserType() {
       </div>
 
       <div className="flex-col flex gap-9">
-        <button className="bg-[#440064] w-44 h-20 flex flex-row gap-3 p-5 rounded-[60px] text-white font-bold text-3xl border-2 border-purple-300 place-items-center text-center">
-          <img src={clock} className="w-8" />
-          Coach
-        </button>
-        <button className="bg-[#440064] w-44 h-20 flex flex-row gap-3 p-3 rounded-[60px] text-white font-bold text-3xl border-2 border-purple-300 place-items-center text-center">
-          <img src={vazne} className="w-8" />
-          Athlete
-        </button>
+        <Button
+          title={"Coach"}
+          className="flex flex-row gap-3 p-5"
+          icon={clock}
+          icon_className="w-8"
+        />
+        <Button
+          title={"Athlete"}
+          className="flex flex-row gap-3 p-3"
+          icon={vazne}
+          icon_className="w-8"
+        />
       </div>
     </div>
   );
