@@ -1,6 +1,7 @@
 import React from "react";
 import dumbbell from "../images/dumbbell.png";
 import Back from "../images/back.png";
+import Input from "../component/Input";
 
 export default function AthleteSignup() {
   return (
@@ -36,10 +37,7 @@ export default function AthleteSignup() {
       </div>
       {/* input */}
       <div className="flex flex-col gap-2">
-        <input
-          className="w-72 h-10 rounded-3xl border-2 border-[#570082] bg-transparent p-3 placeholder-[#DA9FFF] shadow-2xl shadow-[#00000080]"
-          placeholder="User name"
-        />
+        <Input placeholder={"User name"} />
       </div>
     </div>
   );

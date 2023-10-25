@@ -2,13 +2,13 @@ import React from "react";
 import BackgroundImage from "./component/backGround";
 import SignupLogin from "./pages/SignupLogin";
 import UserType from "./pages/UserType";
-// import AthleteSignup from "./pages/AthleteSignup";
+import AthleteSignup from "./pages/AthleteSignup";
 
 export default function App() {
   return (
     <div>
       <BackgroundImage />
-      <UserType />
+      <AthleteSignup />
     </div>
   );
 }
