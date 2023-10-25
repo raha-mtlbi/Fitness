@@ -1,6 +1,6 @@
 import React from "react";
 import dumbbell from "../images/dumbbell.png";
-import Button from "../component/Button";
+import LinkButton from "../component/Link";
 
 export default function SignupLogin() {
   return (
@@ -8,8 +8,8 @@ export default function SignupLogin() {
       <img src={dumbbell} className="h-32 w-72" />
 
       <div className="flex-col flex gap-9">
-        <Button title={"Sign up"}></Button>
-        <Button title={"Log in"}></Button>
+        <LinkButton to="/userType" title={"Sign up"}></LinkButton>
+        <LinkButton to="/login" title={"Log in"}></LinkButton>
       </div>
     </div>
   );

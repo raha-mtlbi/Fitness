@@ -32,12 +32,21 @@ export default function AthleteSignup() {
             className="mr-9 accent-[#954ab6]"
           />
           <p className="mr-1">Female</p>
-          <input type="radio" value="Female" name="gender" />
+          <input
+            type="radio"
+            value="Female"
+            name="gender"
+            className="accent-[#954ab6]"
+          />
         </div>
       </div>
       {/* input */}
       <div className="flex flex-col gap-2">
         <Input placeholder={"User name"} />
+        <Input placeholder={"E-mail"} />
+        <Input placeholder={"Phone"} />
+        <Input placeholder={"Password"} />
+        <Input placeholder={"Repeat Password"} />
       </div>
     </div>
   );
