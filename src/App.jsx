@@ -4,6 +4,7 @@ import SignupLogin from "./pages/SignupLogin";
 import UserType from "./pages/UserType";
 import AthleteSignup from "./pages/AthleteSignup";
 import { Route, Routes } from "react-router-dom";
+import CoachSignup from "./pages/CoachSignup";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="" element={<SignupLogin />} />
         <Route path="/userType" element={<UserType />} />
         <Route path="/athleteSignup" element={<AthleteSignup />} />
+        <Route path="/coachSignup" element={<CoachSignup />} />
       </Routes>
       <BackgroundImage />
     </div>
