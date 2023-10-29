@@ -17,7 +17,7 @@ export default function Login() {
           to="/recoveryPassword"
           className="text-[#DA9FFF] text-base text-left p-2"
         >
-          Recovry Password
+          Recovery Password
         </Link>
       </div>
     </div>

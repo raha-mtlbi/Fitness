@@ -1,6 +1,6 @@
 import React from "react";
 import dumbbell from "../images/dumbbell.png";
-import Back from "../images/back.png";
+import back from "../images/back.png";
 import Input from "../component/Input";
 
 export default function CoachSignup() {
@@ -15,7 +15,7 @@ export default function CoachSignup() {
       <div
         className="w-36 h-9 text-white text-xl text-center bg-no-repeat"
         style={{
-          backgroundImage: `url("${Back}")`,
+          backgroundImage: `url("${back}")`,
         }}
       >
         Coach
