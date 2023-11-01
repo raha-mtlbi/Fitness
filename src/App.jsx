@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import AtheleteTraining from "./pages/AtheleteTraining";
 import CoachPage from "./pages/CoachPage";
 import RecoveryPassword from "./pages/RecoveryPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/coachSignup" element={<CoachSignup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/recoveryPassword" element={<RecoveryPassword />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
       </Routes>
       {/* <AtheleteTraining /> */}
       <BackgroundImage />
