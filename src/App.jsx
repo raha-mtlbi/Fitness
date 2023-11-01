@@ -7,19 +7,23 @@ import { Route, Routes } from "react-router-dom";
 import CoachSignup from "./pages/CoachSignup";
 import Login from "./pages/Login";
 import AtheleteTraining from "./pages/AtheleteTraining";
+import CoachPage from "./pages/CoachPage";
+import RecoveryPassword from "./pages/RecoveryPassword";
 
 export default function App() {
   return (
     <div>
-      {/* <Routes>
+      <Routes>
         <Route path="" element={<SignupLogin />} />
         <Route path="/userType" element={<UserType />} />
         <Route path="/athleteSignup" element={<AthleteSignup />} />
         <Route path="/coachSignup" element={<CoachSignup />} />
         <Route path="/login" element={<Login />} />
-      </Routes> */}
-      <AtheleteTraining />
-      {/* <BackgroundImage /> */}
+        <Route path="/recoveryPassword" element={<RecoveryPassword />} />
+      </Routes>
+      {/* <AtheleteTraining /> */}
+      <BackgroundImage />
+      {/* <CoachPage /> */}
     </div>
   );
 }

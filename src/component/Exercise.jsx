@@ -8,7 +8,10 @@ export default function Exercise() {
         <p className="font-bold flex flex-row text-2xl">Warm Up</p>
         <div className="rounded-3xl bg-[#34034B]">30 min</div>
       </div>
-      <img src={exercise} className="w-44" />
+      <div className="">
+        <img src={exercise} className="w-44" />
+        <div className="w-5 h-5 border border-white rounded-md"></div>
+      </div>
     </button>
   );
 }
