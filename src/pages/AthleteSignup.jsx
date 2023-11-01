@@ -48,6 +48,10 @@ export default function AthleteSignup() {
         <Input placeholder={"Password"} />
         <Input placeholder={"Repeat Password"} />
       </div>
+
+      <button className="text-white text-lg font-bold bg-[#260733] border border-[#7917A8] rounded-full w-28 h-10 m-4">
+        Sign Up
+      </button>
     </div>
   );
 }

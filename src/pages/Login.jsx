@@ -13,12 +13,18 @@ export default function Login() {
       <div className="flex flex-col gap-4">
         <Input placeholder={"E-mail / User name"} />
         <Input placeholder={"Password"} />
-        <Link
-          to="/recoveryPassword"
-          className="text-[#DA9FFF] text-base text-left p-2"
-        >
-          Recovery Password
-        </Link>
+
+        <div className="flex flex-row gap-12">
+          <Link
+            to="/recoveryPassword"
+            className="text-[#DA9FFF] text-base text-left p-2"
+          >
+            Recovery Password
+          </Link>
+          <button className="text-white text-lg font-bold bg-[#260733] border border-[#7917A8] rounded-full w-20 h-10">
+            Login
+          </button>
+        </div>
       </div>
     </div>
   );
