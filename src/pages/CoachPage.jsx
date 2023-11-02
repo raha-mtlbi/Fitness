@@ -44,10 +44,13 @@ export default function AtheleteTraining() {
       </div>
 
       {/* choose athlete name */}
-      <button className="bg-transparent border border-[#7917A8] text-white w-36 h-8 rounded-2xl flex flex-row">
-        <p className="px-3"> Angle Evans</p>
-        <img src={tik} className="py-2" />
-      </button>
+      <div className="relative">
+        <div className="h-1 bg-gradient-to-l from-[#53007A] to-[#14001E] absolute w-full top-0"></div>
+        <button className="bg-transparent border border-[#7917A8] text-white w-36 h-8 rounded-2xl flex flex-row">
+          <p className="px-3"> Angle Evans</p>
+          <img src={tik} className="py-2" />
+        </button>
+      </div>
 
       {/* athlete profile and chart */}
       <div>

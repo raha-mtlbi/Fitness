@@ -25,7 +25,7 @@ export default function AtheleteTraining() {
       </div>
 
       {/* Days */}
-      <div className="flex flex-row gap-3 overflow-x-scroll">
+      <div className="flex flex-row gap-3 overflow-hidden">
         <LinkDay title="Day 1" />
         <LinkDay title="Day 2" />
         <LinkDay title="Day 3" />
@@ -36,7 +36,7 @@ export default function AtheleteTraining() {
       </div>
 
       {/* Exercise */}
-      <div className="flex flex-col gap-5 place-items-center p-4 overflow-y-scroll">
+      <div className="flex flex-col gap-5 place-items-center p-4">
         <Exercise />
         <Exercise />
         <Exercise />

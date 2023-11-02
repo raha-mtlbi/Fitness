@@ -14,7 +14,7 @@ import ResetPassword from "./pages/ResetPassword";
 export default function App() {
   return (
     <div>
-      <Routes>
+      {/* <Routes>
         <Route path="" element={<SignupLogin />} />
         <Route path="/userType" element={<UserType />} />
         <Route path="/athleteSignup" element={<AthleteSignup />} />
@@ -22,10 +22,10 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/recoveryPassword" element={<RecoveryPassword />} />
         <Route path="/resetPassword" element={<ResetPassword />} />
-      </Routes>
+      </Routes> */}
       {/* <AtheleteTraining /> */}
-      <BackgroundImage />
-      {/* <CoachPage /> */}
+      {/* <BackgroundImage /> */}
+      <CoachPage />
     </div>
   );
 }
